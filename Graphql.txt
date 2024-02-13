@@ -1,0 +1,7 @@
+=>assume karo ke userA che ene server par get request mari ke mare badha todos ni list joie che to server e as a response ma array of object aapi didha jema darek object ma title,completed,user_id,ID aa field che have client ne aama thi khali title ni j jarur che to e suh karse ke frontend side khali title ne j batavse to aama issue e che ke jo aapn ne completed,user_id,ID aa badhi field joiti j nathi to aapde tene lavya j kem karan ke ena thi khali khoto aapde network uper vadharano data load karie chie ,aana thi network ni bandwidth vadhe che 
+to aanu solution e che ke aapde Graphql use karie ,graphql ma aapde jetlo data joito hoy tetla data ni j graphql request aapde graphql server par marsu to e aapn ne etlo j data mokalse
+
+=>aapde Graphql server pase thi kai fetch karavu hoy to aapde Query no use karsu jyare Graphql server ne kai aapvu hoy to aapde mutations no use karsu.
+
+Graphql no use karva mate:- frontend side Apollo client use karsu ane backend side aapde Apollo Server use karsu
+Graphql ne frontend side use karva mate aapde client ma  src ma index.js ane App.js ne dhyan ma lo 
